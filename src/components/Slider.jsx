@@ -98,9 +98,21 @@ export default React.createClass({
       	<section>
         	<div className = 'container' id='owlSlider'>
         		<div className = 'row slider'>
-        		this.state.slider.map(( slider, index => {
-            
-				    });
+              {
+            		this.state.slider.map( (slider, index)  => {
+                  return(
+                  <div>
+                    <div className = 'col-lg-12'>
+                      <div className = 'pic-with-overlay' onClick = '' >
+                        <img className = 'img-responsive' src = '' alt = {slider.src} />
+                        <div className = 'bg'>&nbsp;</div>
+                        {slider.description}
+                      </div>
+                    </div>
+                  </div>
+                  )
+    				    })
+              }
 				    </div>
     			</div>
     		</section>
