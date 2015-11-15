@@ -1,0 +1,12 @@
+.image {
+
+  	width: 25%;
+  	display: inline-block;
+
+}
+
+.carousel-caption {
+	
+	right: 60% !important;
+
+}
