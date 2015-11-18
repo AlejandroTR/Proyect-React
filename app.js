@@ -9,7 +9,7 @@ import ImageGrid from './components/ImageGrid';
 // Cada 5 segundos: recargar!
 setInterval(function() {
     ImageActions.fetchList(); 
-}, 5000);
+}, 500);0
 
 React.render(
   <ImageGrid />,
